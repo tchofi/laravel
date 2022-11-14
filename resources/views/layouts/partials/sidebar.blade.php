@@ -65,7 +65,7 @@
             <div class="collapse" id="pagesExamples">
               <ul class="nav">
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/pricing.html">
+                  <a class="nav-link" href="{{route('pricing')}}">
                     <span class="sidebar-mini"> P </span>
                     <span class="sidebar-normal"> Pricing </span>
                   </a>
@@ -77,7 +77,7 @@
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/timeline.html">
+                  <a class="nav-link" href="{{route('timeline')}}">
                     <span class="sidebar-mini"> T </span>
                     <span class="sidebar-normal"> Timeline </span>
                   </a>
@@ -101,13 +101,13 @@
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/user.html">
+                  <a class="nav-link" href="{{route('user')}}">
                     <span class="sidebar-mini"> UP </span>
                     <span class="sidebar-normal"> User Profile </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/error.html">
+                  <a class="nav-link" href="{{route('error')}}">
                     <span class="sidebar-mini"> E </span>
                     <span class="sidebar-normal"> Error Page </span>
                   </a>
@@ -143,7 +143,7 @@
                   </div>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/components/buttons.html">
+                  <a class="nav-link" href="{{route('buttons')}}">
                     <span class="sidebar-mini"> B </span>
                     <span class="sidebar-normal"> Buttons </span>
                   </a>

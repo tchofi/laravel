@@ -1,7 +1,12 @@
+<!-- Etend au  layout app.blade.php -->
 @extends('layouts.app')
+
+<!-- Modification du titre -->
 @section('NameHeader')
 Notifications
 @endsection
+
+<!-- Insertion du contenu de page notification  -->
 @section('content')
 <div class="content">
         <div class="container-fluid">

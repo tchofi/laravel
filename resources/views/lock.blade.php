@@ -1,8 +1,13 @@
+<!-- //Etend au layout login.blade.php -->
 @extends('layouts.login',['active' => 'lock'])
 
+<!-- //Modification du titre -->
 @section('title')
 Lock Page
 @endsection
+
+
+<!-- //Insertion du contenu de la page Lock -->
 @section('content')
 <div class="container">
         <div class="row">

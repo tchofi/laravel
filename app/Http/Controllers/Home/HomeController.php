@@ -35,11 +35,36 @@ class HomeController extends Controller
     {
         return view('inscription');
     }
-    public function lock()
+    public function lock() //Page de garde 
     {
         return view('lock');
     }
-    
+
+    //Vue Pricing
+    public function pricing()
+    {
+        return view('pricing');
+    }
+    //Vue Timeline
+    public function timeline()
+    {
+        return view('timeline');
+    }
+    //Vue User
+    public function user()
+    {
+        return view('user');
+    }
+    //Vue Error 
+    public function error()
+    {
+        return view('error');
+    }
+    //Vue Button
+    public function buttons()
+    {
+        return view('buttons');
+    }
     //Vue Grid
     public function grid()
     {

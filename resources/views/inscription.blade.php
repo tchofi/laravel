@@ -1,8 +1,12 @@
-@extends('layouts.login', ['activeClass' => 'inscription'])
+<!-- //Etend au layout login.blade.php -->
+@extends('layouts.login', ['active' => 'inscription'])
 
+<!-- //Modification du titre -->
 @section('title')
 Register Page
 @endsection
+
+<!-- //Insertion du contenu de la page Inscription  -->
 @section('content')
 <div class="container">
         <div class="row">

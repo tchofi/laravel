@@ -1,8 +1,12 @@
+<!-- //Etend au layout login.blade.php -->
 @extends('layouts.login', ['active' => 'connection'])
 
+<!-- //Modification du titre -->
 @section('title')
 Login Page
 @endsection
+
+<!-- //Insertion du contenu de la page login -->
 @section('content')
 <div class="container">
   <div class="row">

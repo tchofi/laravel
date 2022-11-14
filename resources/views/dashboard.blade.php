@@ -1,9 +1,12 @@
+<!-- Etend au layout app.blade.php -->
 @extends('layouts.app')
 
+<!-- Modification du titre  -->
 @section('NameHeader')
 Dashboard
 @endsection
 
+<!-- //Insertion du contenude la page dashboard -->
 @section('content')
 <div class="content">
     <div class="content">

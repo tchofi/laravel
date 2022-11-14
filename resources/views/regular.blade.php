@@ -1,7 +1,14 @@
+<!-- Etend au layout app.blade.php -->
 @extends('layouts.app')
+
+<!-- Modification du titre -->
 @section('NameHeader')
 Regular Table
 @endsection
+
+
+
+<!-- Insertion du contenu de la page Regular Table -->
 @section('content')
 <div class="content">
   <div class="container-fluid">
@@ -440,5 +447,4 @@ Regular Table
     </div>
   </div>
 </div>
-
 @endsection

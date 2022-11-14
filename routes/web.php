@@ -56,5 +56,8 @@ Route::get('/grid', [HomeController::class, 'grid'])->name('grid');
 Route::get('/login',[HomeController::class, 'loginContent'])->name('login');
 Route::get('/register', [HomeController::class, 'register'])->name('register');
 Route::get('/lock', [HomeController::class, 'lock'])->name('lock');
-
-
+Route::get('/pricing', [HomeController::class, 'pricing'])->name('pricing');
+Route::get('/timeline', [HomeController::class, 'timeline'])->name('timeline');
+Route::get('/user', [HomeController::class, 'user'])->name('user');
+Route::get('/error', [HomeController::class, 'error'])->name('error');
+Route::get('/buttons', [HomeController::class, 'buttons'])->name('buttons');
