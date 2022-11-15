@@ -75,6 +75,36 @@ class HomeController extends Controller
     {
         return view('sweet-alert');
     }
+    //Vue Icons
+    public function icons()
+    {
+        return view('icons');
+    }
+    //VUe Typography
+    public function typography()
+    {
+        return view('typography');
+    }
+    //Vue Regular Forms
+    public function regularForm()
+    {
+        return view('regular-form');
+    }
+    //Vue Extended Forms
+    public function extendedForm()
+    {
+        return view('extended-form');
+    }
+    //Vue Validation Forms
+    public function  ValidationForm()
+    {
+        return view('validation-form');
+    }
+    //Vue wizard
+    public function wizard()
+    {
+        return view('wizard');
+    }
     //Vue Grid
     public function grid()
     {
