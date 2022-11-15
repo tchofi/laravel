@@ -65,6 +65,16 @@ class HomeController extends Controller
     {
         return view('buttons');
     }
+    //Vue Panels
+    public function panels()
+    {
+        return view('panels');
+    }
+    //Vue Sweet-Alert
+    public function sweetAlert()
+    {
+        return view('sweet-alert');
+    }
     //Vue Grid
     public function grid()
     {

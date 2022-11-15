@@ -61,3 +61,5 @@ Route::get('/timeline', [HomeController::class, 'timeline'])->name('timeline');
 Route::get('/user', [HomeController::class, 'user'])->name('user');
 Route::get('/error', [HomeController::class, 'error'])->name('error');
 Route::get('/buttons', [HomeController::class, 'buttons'])->name('buttons');
+Route::get('/panels', [HomeController::class, 'panels'])->name('panels');
+Route::get('/sweet-alert', [HomeController::class, 'sweetAlert'])->name('sweet-alert');

@@ -155,13 +155,13 @@
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/components/panels.html">
+                  <a class="nav-link" href="{{route('panels')}}">
                     <span class="sidebar-mini"> P </span>
                     <span class="sidebar-normal"> Panels </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/components/sweet-alert.html">
+                  <a class="nav-link" href="{{route('sweet-alert')}}">
                     <span class="sidebar-mini"> SA </span>
                     <span class="sidebar-normal"> Sweet Alert </span>
                   </a>
