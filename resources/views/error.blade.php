@@ -1,5 +1,5 @@
 <!-- Etend au layout login.blade.php -->
-@extends('layouts.login', ['active' => ''])
+@extends('layouts.material-login', ['active' => ''])
 
 <!-- Modification du titre -->
 @section('NameHeader')

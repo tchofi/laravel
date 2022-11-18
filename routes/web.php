@@ -92,3 +92,7 @@ Route::get('/validation-form', [HomeController::class, 'ValidationForm'])->name(
 Route::get('/wizard', [HomeController::class, 'wizard'])->name('wizard');
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

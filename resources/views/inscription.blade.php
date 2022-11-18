@@ -1,5 +1,5 @@
 <!-- //Etend au layout login.blade.php -->
-@extends('layouts.login', ['active' => 'inscription'])
+@extends('layouts.material-login', ['active' => 'inscription'])
 
 <!-- //Modification du titre -->
 @section('title')

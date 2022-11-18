@@ -1,6 +1,6 @@
 <!-- Etend au layout app.blade.php -->
 
-@extends('layouts.app')
+@extends('layouts.material-app')
 <!-- Modification du titre  -->
 
 
