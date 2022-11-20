@@ -14,8 +14,8 @@ class CreateHabilitationTable extends Migration
     public function up()
     {
         Schema::create('habilitation', function (Blueprint $table) {
-            //$table->id('IdHabilitation');
-            $table->integer('Id_Habilitation')->autoIncrement()->primary();
+
+            $table->integer('Id')->autoIncrement()->primary();
             $table->integer('Id_Menu');
             $table->integer('Id_Role');
             $table->integer('Id_Autorisation');

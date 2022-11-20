@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRoleTable extends Migration
+return new class extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateRoleTable extends Migration
      */
     public function up()
     {
-        Schema::create('role', function (Blueprint $table) {
-            $table->integer('Id')->autoIncrement()->primary();
-            $table->string('Nom', '255');
-            $table->text('Description');
-            $table->timestamps();
+        Schema::create('password_resets', function (Blueprint $table) {
+            $table->string('email')->index();
+            $table->string('token');
+            $table->timestamp('created_at')->nullable();
         });
     }
 
@@ -28,6 +27,6 @@ class CreateRoleTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('role');
+        Schema::dropIfExists('password_resets');
     }
-}
+};

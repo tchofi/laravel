@@ -14,7 +14,6 @@ class CreateAutorisationTable extends Migration
     public function up()
     {
         Schema::create('autorisation', function (Blueprint $table) {
-            //$table->id('IdAutorisation');
             $table->integer('Id')->autoIncrement()->primary();
             $table->boolean('Creation');
             $table->boolean('Modification');

@@ -14,7 +14,6 @@ class CreateMenuTable extends Migration
     public function up()
     {
         Schema::create('menu', function (Blueprint $table) {
-            //$table->id('IdMenu');
             $table->integer('Id')->autoIncrement()->primary();
             $table->string('NomMenu', '255');
             $table->string('Icon', '255');

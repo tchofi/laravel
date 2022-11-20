@@ -14,7 +14,6 @@ class CreatePaiementTable extends Migration
     public function up()
     {
         Schema::create('paiement', function (Blueprint $table) {
-            //$table->id('IdPaiement');
             $table->integer('Id')->autoIncrement()->primary();
             $table->integer('Id_Service');
             $table->integer('Id_User');
