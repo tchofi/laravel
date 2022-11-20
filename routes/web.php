@@ -3,6 +3,7 @@ use App\Http\Controllers\Home\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Home\ContactController;
 use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\Auth;
 
 
 
@@ -59,7 +60,7 @@ Route::get('/notifications', [HomeController::class, 'notifications'])->name('no
 //Route grid
 Route::get('/grid', [HomeController::class, 'grid'])->name('grid');
 //Route login
-Route::get('/login',[HomeController::class, 'loginContent'])->name('login');
+Route::get('/connection',[HomeController::class, 'loginContent'])->name('connection');
 //Route inscription
 Route::get('/register', [HomeController::class, 'register'])->name('register');
 //Route lock
@@ -93,6 +94,6 @@ Route::get('/wizard', [HomeController::class, 'wizard'])->name('wizard');
 
 
 
-Auth::routes();
+Auth::routes(); //Si l'utilisateur est authentifié
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

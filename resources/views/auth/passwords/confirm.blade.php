@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.material-login', ['active' => ''])
 
 @section('content')
 <div class="container">

@@ -83,7 +83,7 @@
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="{{route('login')}}">
+                  <a class="nav-link" href="{{'login'}}">
                     <span class="sidebar-mini"> LP </span>
                     <span class="sidebar-normal"> Login Page </span>
                   </a>
